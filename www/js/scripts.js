@@ -13,7 +13,7 @@ var app = new Framework7({
         {
             path: '/page3/',
             url: 'pages/page3.html',
-        }
+        },
     ]
 });
 
