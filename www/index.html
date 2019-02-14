@@ -7,7 +7,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <link rel="stylesheet" type="text/css" href="css/framework7.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>NASA: Photo of the Day</title>
+    <title>Back To Bed</title>
 </head>
 
 <body>
@@ -15,31 +15,105 @@
         <div class="view view-main">
             <div class="page" data-name="home">
                 <div class="navbar">
-                    <div class="navbar-inner">
-                        <h2>Nasa APOD</h2>
-
-                    </div>
+                    <h1>Back To Bed</h1>
+                    <!--
+                            <a class="link back icon-only" href="index.html">
+                                <i class="icon icon-back"></i>
+                            </a>
+-->
                 </div>
-                <div class="page-content">
-                    <h1>
-                        Astronomy <br>Photo of the Day</h1>
 
-                    <div class="nasaimg"><img src="img/nasa.png"></div>
+
+                <div class="page-content">
+                    <h2>Please Enter Some Info</h2>
+                    <div id="input-container" class="list">
+                        <ul>
+                            <li class="item-content item-input">
+                                <div class="item-inner">
+                                    <div class="item-input-wrap">
+                                        <input id="food" type="text" name="name" placeholder="Name A Food">
+                                        <span class="input-clear-button"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="input-container" class="list">
+                        <ul>
+                            <li class="item-content item-input">
+                                <div class="item-inner">
+                                    <div class="item-input-wrap">
+                                        <input id="food2" type="text" name="name" placeholder="Name Another Food">
+                                        <span class="input-clear-button"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="input-container" class="list">
+                        <ul>
+                            <li class="item-content item-input">
+                                <div class="item-inner">
+                                    <div class="item-input-wrap">
+                                        <input id="store" type="text" name="name" placeholder="Name A Store">
+                                        <span class="input-clear-button"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="input-container" class="list">
+                        <ul>
+                            <li class="item-content item-input">
+                                <div class="item-inner">
+                                    <div class="item-input-wrap">
+                                        <input id="friend" type="text" name="name" placeholder="Name A Friend">
+                                        <span class="input-clear-button"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="input-container" class="list">
+                        <ul>
+                            <li class="item-content item-input">
+                                <div class="item-inner">
+                                    <div class="item-input-wrap">
+                                        <input id="randomobject" type="text" name="name" placeholder="Name A Random Object">
+                                        <span class="input-clear-button"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
 
                     <div class="list links-list">
                         <ul>
                             <li>
-                                <a href="/page2/">Today</a>
+                                <a id="startbtn" href="/page2/">
+                                    <p>LET'S GO</p>
+                                </a>
                             </li>
-                            <li>
-                                <a href="/page3/">Yesterday</a>
+                            <!--
+                        <li>
+                            <a href="/page3/">B</a>
+                        </li>
+                        <li>
+                            <a href="/page3/">C</a>
+                        </li>
+-->
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="js/apodapp.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <!--    <script src="js/apodapp-altpage.js"></script>-->
     <script type="text/javascript" src="cordova.js">
     </script>

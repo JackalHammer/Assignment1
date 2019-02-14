@@ -1,59 +1,125 @@
 <!DOCTYPE html>
 <html>
-    <head>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Staatliches" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <link rel="stylesheet" type="text/css" href="css/framework7.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>NASA: Photo of the Day</title>
+    <title>Back To Bed</title>
 </head>
 
 <body>
     <div id="app">
-        <div class="panel panel-left panel-cover">
-            <div class="list links-list">
-                <ul>
-                    <li><a href="https://en.wikipedia.org/wiki/Earth">Earth</a></li>
-                    <li><a href="#">Mars</a></li>
-                    <li><a href="#">Jupiter</a></li>
-                    <li><a href="#">Saturn</a></li>
-                </ul>
-            </div>
-        </div>
         <div class="view view-main">
             <div class="page" data-name="home">
                 <div class="navbar">
-                    <div class="navbar-inner">
-                        <div class=“left”><a href="#" class="panel-open">Planets</a></div>
-                        <div class="title">NASA</div>
-                        <div class="right"><a href="#" data-panel="right" class="panel-open"></a></div>
-                    </div>
+                    <h1>Back To Bed</h1>
+                    <!--
+                            <a class="link back icon-only" href="index.html">
+                                <i class="icon icon-back"></i>
+                            </a>
+-->
                 </div>
 
-                <div class="toolbar toolbar-bottom-md">
-                    <div class="toolbar-inner">
-                        <a href="/page2/" class="link">Yesterday's Photo</a>
-                    </div>
-                </div>
+
                 <div class="page-content">
-                    <h1>Photo of the Day</h1>
+                    <h2>Please Enter Some Info</h2>
+                    <div id="input-container" class="list">
+                        <ul>
+                            <li class="item-content item-input">
+                                <div class="item-inner">
+                                    <div class="item-input-wrap">
+                                        <input id="food" type="text" name="name" placeholder="Name A Food">
+                                        <span class="input-clear-button"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
 
-                      <div class="grid-parent">
-                 <div class="item1"><img id="td-image"></div>
-                <div class="item2 "><span id="td-title"></span></div>
-                <div class="item3">Copyright: <span id="td-copyright"></span></div>
-                <div class="item4"><span id="td-explanation"></span></div>
-            </div>
+                    <div id="input-container" class="list">
+                        <ul>
+                            <li class="item-content item-input">
+                                <div class="item-inner">
+                                    <div class="item-input-wrap">
+                                        <input id="food2" type="text" name="name" placeholder="Name Another Food">
+                                        <span class="input-clear-button"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="input-container" class="list">
+                        <ul>
+                            <li class="item-content item-input">
+                                <div class="item-inner">
+                                    <div class="item-input-wrap">
+                                        <input id="store" type="text" name="name" placeholder="Name A Store">
+                                        <span class="input-clear-button"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="input-container" class="list">
+                        <ul>
+                            <li class="item-content item-input">
+                                <div class="item-inner">
+                                    <div class="item-input-wrap">
+                                        <input id="friend" type="text" name="name" placeholder="Name A Friend">
+                                        <span class="input-clear-button"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="input-container" class="list">
+                        <ul>
+                            <li class="item-content item-input">
+                                <div class="item-inner">
+                                    <div class="item-input-wrap">
+                                        <input id="randomobject" type="text" name="name" placeholder="Name A Random Object">
+                                        <span class="input-clear-button"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="list links-list">
+                        <ul>
+                            <li>
+                                <a id="startbtn" href="/page2/">
+                                    <p>LET'S GO</p>
+                                </a>
+                            </li>
+                            <!--
+                        <li>
+                            <a href="/page3/">B</a>
+                        </li>
+                        <li>
+                            <a href="/page3/">C</a>
+                        </li>
+-->
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="js/apodapp.js"></script>
-<!--    <script src="js/apodapp-altpage.js"></script>-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!--    <script src="js/apodapp-altpage.js"></script>-->
     <script type="text/javascript" src="cordova.js">
     </script>
     <script src="js/framework7.min.js"></script>
-    
+
     <script src="js/scripts.js"></script>
 </body>
+
 </html>

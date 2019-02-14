@@ -1,10 +1,11 @@
 /*
-font-family: 'Staatliches', cursive;
+font-family: 'Rubik', sans-serif;
 font-family: 'Comfortaa', cursive;
+font-family: 'Staatliches', cursive;
 */
 
 
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Rubik|Staatliches');
 
 * {
     box-sizing: border-box;
@@ -12,7 +13,11 @@ font-family: 'Comfortaa', cursive;
 
 }
 
-.grid-parent {
+.page-content{
+    background-color: #d7bee0;
+}
+
+.story {
     display: grid;
     grid-template-columns: 1fr;
     grid-column-gap: 10%;
@@ -20,14 +25,38 @@ font-family: 'Comfortaa', cursive;
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
-    color: #ed0000;
+    color: #6e1c8c;
+    font-family: 'Staatliches', cursive;
+}
+
+h2 {
+    background-color: #3a3a3a;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #cf9ff0;
     font-family: 'Staatliches', cursive;
 }
 
 h3 {
-    text-align: center;
+    padding: 3%;
+    border-color: #3a3a3a;
+    border-width: 5px;
+    border-style: dashed;
+    font-family: 'Rubik', sans-serif;
+    margin: auto;
+
+}
+
+h4 {
+    font-size: 1.1em;
+    background-color: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .nasaimg img {
@@ -38,7 +67,7 @@ h3 {
 
 
 .navbar {
-    color: red;
+    background-color: #3a3a3a;
 }
 
 
@@ -48,12 +77,20 @@ h3 {
 }
 
 p {
+    font-family: 'Comfortaa', cursive;
     padding-bottom: 0%;
     padding-left: 5%;
     padding-right: 5%;
 }
 
 .md .navbar {
-    background: #0b3d91;
+    background-color: #3a3a3a;
 
+}
+
+.item-input {
+    max-width: 80%;
+}
+
+.page-content {
 }

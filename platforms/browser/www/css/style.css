@@ -1,51 +1,84 @@
+/*
+font-family: 'Staatliches', cursive;
+font-family: 'Comfortaa', cursive;
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Staatliches');
+
 * {
     box-sizing: border-box;
     margin: auto;
 
 }
 
-.grid-parent {
+.story {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-column-gap: 10%;
     grid-row-gap: 2%;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
-    color: burlywood;
-    text-shadow: 2px 2px 5px #000;
+    color: #ed0000;
+    font-family: 'Staatliches', cursive;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #cf9ff0;
+    font-family: 'Staatliches', cursive;
+}
+
+h3 {
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
 
 }
 
-.card demo-card-header-pic .card-header {
-    height: 40vw;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
+h4 {
+    background-color: none;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.card demo-card-header-pic .card-content-padding .date {
-    color: #8e8e93;
+.nasaimg img {
+    display: block;
+    width: 80%;
+    margin: auto;
 }
+
 
 .navbar {
-    color: antiquewhite;
+    color: red;
 }
+
 
 .left {
-    text-align: left;
+    margin-left: 0;
+    align-content: left;
 }
 
-.item1, .item4 {
-    grid-column:span 2;
+p {
+    padding-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.item2, .item3 {
-    grid-column: span 1;
+.md .navbar {
+    background: #0b3d91;
+
 }
 
-img {
-    width: 100%;
+.item-input {
+    max-width: 80%;
+}
+
+.page-content {
+    margin-top: 20%;
 }
